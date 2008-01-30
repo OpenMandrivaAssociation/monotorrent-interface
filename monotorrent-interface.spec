@@ -33,7 +33,7 @@ make
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%makeinstall
+%makeinstall libdir=%buildroot%_prefix/lib
 rm -f %buildroot%_prefix/lib/monotorrent-interface/NDesk.DBus*
 
 ln -sf %_prefix/lib/bitsharp/MonoTorrent.dll %buildroot%_prefix/lib/monotorrent-interface/
