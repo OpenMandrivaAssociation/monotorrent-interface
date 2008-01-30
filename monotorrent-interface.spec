@@ -1,6 +1,6 @@
 %define name monotorrent-interface
 %define version 0.1
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: Graphical Bittorrent client for Mono
 Name: %{name}
@@ -17,6 +17,7 @@ BuildRequires: mono-devel
 BuildRequires: monotorrent >= 0.20
 BuildRequires: ndesk-dbus-glib
 BuildRequires: gnome-sharp2
+%define _requires_exceptions ^lib
 
 %description
 Monotorrent is an open source bittorrent library. This is a Gtk GUI based on
