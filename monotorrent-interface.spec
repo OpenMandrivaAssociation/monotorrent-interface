@@ -1,6 +1,6 @@
 %define name monotorrent-interface
 %define version 0.1
-%define release %mkrel 4
+%define release %mkrel 5
 
 Summary: Graphical Bittorrent client for Mono
 Name: %{name}
