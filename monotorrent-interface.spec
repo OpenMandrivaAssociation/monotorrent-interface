@@ -16,7 +16,7 @@ BuildArch: noarch
 BuildRequires: mono-devel
 BuildRequires: monotorrent >= 0.20
 BuildRequires: ndesk-dbus-glib
-BuildRequires: gnome-sharp2
+BuildRequires: gnome-sharp2-devel
 %define _requires_exceptions ^lib
 
 %description
