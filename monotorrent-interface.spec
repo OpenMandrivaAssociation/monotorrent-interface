@@ -10,7 +10,7 @@ Source0: http://www.monotorrent.com/Files/%version/%{name}-%{version}.tar.gz
 Source1: MonoTorrent.Interface.exe.config
 License: MIT
 Group: System/Libraries
-Url: http://www.monotorrent.com/
+Url: https://www.monotorrent.com/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 BuildRequires: mono-devel
